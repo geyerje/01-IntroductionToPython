@@ -28,4 +28,20 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 ###############################################################################
 
-import
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+window.delay(20)
+
+bo = rg.SimpleTurtle()
+bo.pen = rg.Pen('red',15)
+bo.speed = 20
+
+bo.left(45)
+bo.forward(50)
+bo.right(120)
+bo.backward(80)
+bo.left(60)
+bo.forward(70)
+
+window.close_on_mouse_click()
