@@ -52,7 +52,7 @@ import rosegraphics as rg
 #Done
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
-# 
+#
 #   Then look at the code below.  Raise your hand when you have questions about
 #   what the code is doing.  Be sure that you understand the notations for:
 #     -- CONSTRUCTING an instance of a CLASS, e.g.
